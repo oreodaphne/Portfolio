@@ -1,0 +1,57 @@
+#project {
+
+    height: 1000px;
+    background-color: #F1F1F1;
+    color: #100F0F;
+    padding: 100px;
+}
+
+
+.project-title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 80px;
+    border: 3px solid #100F0F;
+    
+}
+
+
+.project-personal, .project-kalimba {
+
+    font-size: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: #0F3D3E;
+}
+
+.project-description {
+
+    font-family: 'Pangolin', cursive;
+}
+
+
+.tech-used {
+
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+@media (max-width: 991px)
+{
+
+    #project {
+
+        text-align: center;
+        margin-bottom: 29px;
+        background-color: #F1F1F1;
+        
+    }
+
+    .project-title {
+
+        font-size: 60px;
+    }
+
+  
+
+    
+}

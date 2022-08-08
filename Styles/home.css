@@ -1,0 +1,128 @@
+#home {
+
+   
+    background-color: #F1F1F1;
+    
+    
+    
+    
+}
+
+.container-fluid {
+    padding: 10% 15% 12%;
+}
+
+
+
+.introduction {
+    font-family: 'Nanum Pen Script', cursive;
+    padding: 250px 100px 100px;
+    margin-left: 400px;
+}
+
+.greetings {
+
+    margin-left: 90px;
+    font-size: 220px;
+    
+    
+    
+}
+
+.name {
+
+    display: block;
+    font-size: 100px;
+    margin-left: 90px;
+    color: #0F3D3E;
+    font-family: 'Pangolin', cursive;
+}
+
+.description {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 40px;  
+
+}
+
+
+.profile-pic {
+    
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    
+    
+
+}
+
+/*Download Button*/
+.preview-cv {
+    font-size: 30px;
+    margin-left: 100px;
+    transition: background-color 0.15s;
+    
+  
+}
+
+.preview-cv:hover {
+
+    
+    background-color: black;
+    color: white;
+}
+
+.ccto {
+
+    font-size: 100px;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+
+@media (max-width: 991px) {
+
+    
+    .container-fluid {
+
+        text-align: center;
+        padding: 40% 25% 25% 0;
+        
+    }
+    .profile-pic {
+
+        margin-top: 10px;
+        width: 300px;
+
+    }
+
+    .greetings {
+        margin-left: 0;
+        font-size: 150px;
+        text-align: center;
+    }
+
+    .name {
+        margin-left: 0;
+        font-size: 70px;
+    }
+    .description {
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    .preview-cv {
+        
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .introduction {
+
+        margin-left: 100px;
+    }
+    
+    
+}

@@ -1,0 +1,105 @@
+#about {
+    background-color: #100F0F;
+    color: #F1F1F1;
+}
+
+.sprout {
+
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 100px;
+    border-radius: 500px;
+
+
+}
+
+.about-title {
+
+    font-size: 90px;
+    font-family: 'Nanum Pen Script', cursive;
+    border: 3px solid #F1F1F1;
+    writing-mode: vertical-lr;
+    transform: rotate(265deg);
+    
+}
+
+.about-me-sentence {
+    font-family: 'Nanum Pen Script', cursive;
+
+}
+
+.front-end {
+
+    color: yellow;
+    
+    
+}
+
+
+
+.sentence {
+    
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    line-height: 3.5;
+    
+    
+}
+
+.long {
+
+    max-width: 300px;
+}
+
+.drink-water {
+
+    font-size: 25px;
+    opacity: 0.2;
+}
+
+
+/* Responsive */
+
+@media (max-width: 991px)
+{
+
+    #about {
+
+        text-align: center;
+        margin: auto;
+    }
+
+    .about-title {
+
+        font-size: 75px;
+        writing-mode: horizontal-tb;
+        transform: none;
+        display: block;
+        margin-bottom: 10px;
+
+
+    }
+
+    .sprout{
+        padding-top: 0;
+        padding-left: 0;
+        width: 320px;
+
+    }
+
+    .drink-water {
+
+        font-size: 18px;
+        opacity: 0.2;
+        margin-bottom: 500px;
+    }
+
+    .sentence {
+        
+        font-size: 20px;
+        line-height: 2.5;
+        
+    }
+
+}
+
